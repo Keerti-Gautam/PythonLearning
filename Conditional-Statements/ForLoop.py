@@ -21,3 +21,6 @@ for w in words[:]:  # Loop over a slice copy of the entire lis
     if len(w) > 6:
       words.insert(0, w) # Tries to insert defenestrate over and over again in the array
       print words
+
+for x in range(11,0, -1):
+    print x
