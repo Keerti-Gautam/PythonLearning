@@ -42,6 +42,9 @@ The first line is the "instantiate" operation, and it's a lot like calling a fun
 
 Without `self` the code isn't clear about whether you mean the instance's `tangerine` attribute, or a local variable named `tangerine`. With `self.tangerine = 'Some lyrics'` it's very clear you mean the instance attribute `self.tangerine`.
 
+Inside the functions in a class, self is a variable for the instance/object being accessed.
+
+
 That's the basics of how Python does this "mini-import" when you call a class like a function. Remember that this is not giving you the class, but instead is using the class as a blueprint for building a copy of that type of thing.
 
 Keep in mind that I'm giving you a slightly inaccurate idea for how these work so that you can start to build up an understanding of classes based on what you know about modules.
