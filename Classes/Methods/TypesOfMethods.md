@@ -51,4 +51,6 @@ It is created by using the `@staticmethod` decorator.
       #print Laugh.hyena_laugh("giggle")
       print Laugh.hyena_laugh()
 
-Note that class name is used and the argument which is passed would not affect the output.       
+Note that class name is used and the argument which is passed would not affect the output.
+
+[Source](https://softwareengineering.stackexchange.com/a/306095)      
