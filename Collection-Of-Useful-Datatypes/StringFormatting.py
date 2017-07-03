@@ -10,8 +10,8 @@ print "%s is used for strings and %d is used for integer values"
 
 # A newer way to format strings is the format method. This method is the preferred way
 # Please note that %s or %d cannot be used with this format method and only braces are to be used.
-"{} is a {}".format("This", "placeholder")
-"{0} can be {1}".format("strings", "formatted")
+print "{} is a {}".format("This", "placeholder")
+print "{0} can be {1}".format("strings", "formatted")
 
 # You can use keywords if you don't want to count.
-"{name} wants to eat {food}".format(name="Bob", food="lasagna")
+print "{name} wants to eat {food}".format(name="Bob", food="lasagna")
