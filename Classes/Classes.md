@@ -38,6 +38,12 @@ The first line is the "instantiate" operation, and it's a lot like calling a fun
 5. In this case, I set `self.tangerine` to a song lyric and then I've initialized this object.
 6. Now Python can take this newly minted object and assign it to the thing variable for me to work with.
 
+#### What is `__init__`?
+`__init__` is a basic initializer, this is called when this class is instantiated.
+Note that the double leading and trailing underscores denote objects or attributes that are used by python but that live in user-controlled namespaces.
+
+You should not invent such names on your own.
+
 #### Why use `self` while making `__init__` or other functions?
 
 Without `self` the code isn't clear about whether you mean the instance's `tangerine` attribute, or a local variable named `tangerine`. With `self.tangerine = 'Some lyrics'` it's very clear you mean the instance attribute `self.tangerine`.
